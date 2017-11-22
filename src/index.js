@@ -2,7 +2,6 @@ import hapi from 'hapi'
 import hapi_router from 'hapi-router'
 import blipp from 'blipp'
 
-console.log(process.env.SERVER_PORT)
 const server = new hapi.Server()
 server.connection({
   port: process.env.SERVER_PORT || 3000

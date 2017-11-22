@@ -1,4 +1,3 @@
-require('dotenv').config()
-console.log('process.env.SERVER_PORT',process.env.SERVER_PORT)
-
+import dotenv from 'dotenv'
+dotenv.config()
 import index from './src/index.js'
